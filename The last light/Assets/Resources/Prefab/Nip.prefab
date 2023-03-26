@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 3172195504220884465}
   m_Layer: 10
   m_Name: Nip
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -122,15 +122,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d014a069fb5f8324a96d8a746d2ede26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 0
-  timeGo: 0
   rayDistans: 1
   speed: 2
-  player: {fileID: 0}
-  animatorPlayer: {fileID: 0}
-  animator: {fileID: 1758923139503575918}
   Cinematic: 0
-  playerSr: {fileID: 0}
+  triggerDeath: {fileID: 5891989639467454179, guid: e0563a02418a4ff41bd6fba14a70cb77, type: 3}
 --- !u!70 &5792805979653417788
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -144,8 +139,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.003856606, y: 0.4471007}
-  m_Size: {x: 6.9195814, y: 2.9159439}
+  m_Offset: {x: 0.14483787, y: 0.44710067}
+  m_Size: {x: 4.15828, y: 2.9159663}
   m_Direction: 1
 --- !u!50 &3234819023022189255
 Rigidbody2D:

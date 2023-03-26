@@ -4,20 +4,17 @@ using UnityEngine;
 
 public class ControlNip : MonoBehaviour
 {
-    [SerializeField]
     private float time;
-    public bool timeGo = false;
-    [SerializeField] private float rayDistans;
+    private bool timeGo = false;
     private bool moveRigth = true;
-
+    [SerializeField] private float rayDistans;
     [SerializeField] private float speed;
-    public Move player;
-    public Animator animatorPlayer;
-    public Animator animator;
-
     [SerializeField]private bool Cinematic;
-
-    [SerializeField] private SpriteRenderer playerSr;
+    [SerializeField] private TriggerDeath triggerDeath;
+    private Animator animator;
+    private void Awake() {
+        animator = GetComponent<Animator>();
+    }
     void Update()
     {   if(Cinematic)
         {
@@ -32,11 +29,9 @@ public class ControlNip : MonoBehaviour
                 speed = 0;
                 animator.SetBool("Walk", false);
                 time += Time.deltaTime;
-                if (time > 2)
+                if (time > 1.5f)
                 {
-                    animatorPlayer.SetTrigger("KellNip");
-                    playerSr.flipX = true;
-                    player.death = true;
+                    triggerDeath.DeathNip();
                     Destroy(gameObject, .1f);
                 }
             }

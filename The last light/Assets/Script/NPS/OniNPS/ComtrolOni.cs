@@ -6,8 +6,6 @@ public class ComtrolOni : MonoBehaviour
 {
     [SerializeField]float speed;
     [SerializeField] float rayDistans;
-
-    private bool ligthdamage = false;
     private Animator animator;
     
     private bool moveRigth = true;
@@ -15,7 +13,6 @@ public class ComtrolOni : MonoBehaviour
     [SerializeField]private Transform groundCheck;
     private float groundRadius = 0.3f;
     [SerializeField]private LayerMask whatIsGround;
-
     SpriteRenderer sr;
     void Start()
     {
