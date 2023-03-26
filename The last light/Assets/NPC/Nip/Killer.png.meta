@@ -1,0 +1,499 @@
+fileFormatVersion: 2
+guid: c04f5681fff534b43be3d8260925c8b9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KillerWalk
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 760
+        width: 205
+        height: 295
+      alignment: 9
+      pivot: {x: 0.3512633, y: 0.3559742}
+      border: {x: 72, y: 105, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9342af26352f3fc43baccde8797421c0
+      internalID: 1457491134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KillerWalk1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 760
+        width: 180
+        height: 295
+      alignment: 9
+      pivot: {x: 0.2610906, y: 0.35937086}
+      border: {x: 47, y: 106, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f769c8cf1e66c40abbe2762f08309c
+      internalID: -1468010201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KillerWalk2
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 760
+        width: 180
+        height: 295
+      alignment: 9
+      pivot: {x: 0.26099616, y: 0.35925975}
+      border: {x: 47, y: 106, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0f9831a90ece046b58a6bd1d5a7be2
+      internalID: 1441611067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KillerWalk3
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 760
+        width: 180
+        height: 295
+      alignment: 9
+      pivot: {x: 0.260907, y: 0.3589252}
+      border: {x: 47, y: 106, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52012876bd891dd43b07ef83d931bc24
+      internalID: -369637424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KillerStay
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 760
+        width: 180
+        height: 295
+      alignment: 9
+      pivot: {x: 0.2610616, y: 0.3593158}
+      border: {x: 47, y: 106, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2887e18d79d8d442a31fce92b0ddedd
+      internalID: -324034598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KillerStay1
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 760
+        width: 180
+        height: 295
+      alignment: 9
+      pivot: {x: 0.26111653, y: 0.35919064}
+      border: {x: 47, y: 106, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2f878dd2ce61646afc35ffcbb747ea
+      internalID: 1465271679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KillerStay2
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 760
+        width: 180
+        height: 295
+      alignment: 9
+      pivot: {x: 0.261143, y: 0.35936403}
+      border: {x: 47, y: 106, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d68264325b1534a8f50f4354cdb257
+      internalID: 2144009265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KillerStay3
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 760
+        width: 180
+        height: 295
+      alignment: 9
+      pivot: {x: 0.2611057, y: 0.35931107}
+      border: {x: 47, y: 106, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31612f7c651d71c498c64b77a487337b
+      internalID: 99736350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Killerdeat
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 360
+        width: 325
+        height: 295
+      alignment: 9
+      pivot: {x: 0.1445975, y: 0.47456583}
+      border: {x: 47, y: 140, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2358cf557819aa4ba419814ca570aa2
+      internalID: -1920239913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Killerdeat1
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 361
+        width: 325
+        height: 295
+      alignment: 9
+      pivot: {x: 0.14456299, y: 0.47460958}
+      border: {x: 47, y: 140, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354f55ea8d21a8049a158734da8b6635
+      internalID: -315609681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Killerdeat2
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 360
+        width: 325
+        height: 295
+      alignment: 9
+      pivot: {x: 0.14463097, y: 0.47457287}
+      border: {x: 47, y: 140, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7be1c3b620465c478bf292dfb00a06b
+      internalID: -362130075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Killerdeat3
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 360
+        width: 325
+        height: 295
+      alignment: 9
+      pivot: {x: 0.14461426, y: 0.47459635}
+      border: {x: 47, y: 140, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf7c018844419e4883079f80689d266
+      internalID: -1225469057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KillerdeatStay
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 40
+        width: 325
+        height: 295
+      alignment: 9
+      pivot: {x: 0.14469062, y: 0.47458947}
+      border: {x: 47, y: 140, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a8303d962a8ba418dd86b0ab233c30
+      internalID: -1118147312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KillerdeatStay1
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 40
+        width: 325
+        height: 295
+      alignment: 9
+      pivot: {x: 0.14457744, y: 0.4745324}
+      border: {x: 47, y: 140, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cec6dfa6f815944a8a3ae11283c2ca4
+      internalID: 424159081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KillerdeatStay2
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 40
+        width: 325
+        height: 295
+      alignment: 9
+      pivot: {x: 0.14466478, y: 0.47415435}
+      border: {x: 47, y: 140, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93d35db6a022ed448d1a87acca1d16b
+      internalID: 901671320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KillerdeatStay3
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 40
+        width: 325
+        height: 295
+      alignment: 9
+      pivot: {x: 0.14462966, y: 0.47456387}
+      border: {x: 47, y: 140, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99cf6c0690932949b0ee44587495355
+      internalID: 572022314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      KillerWalk3: -369637424
+      KillerStay2: 2144009265
+      KillerdeatStay: -1118147312
+      KillerWalk: 1457491134
+      KillerStay1: 1465271679
+      KillerdeatStay1: 424159081
+      KillerStay: -324034598
+      Killerdeat2: -362130075
+      Killerdeat3: -1225469057
+      Killerdeat: -1920239913
+      KillerdeatStay3: 572022314
+      KillerStay3: 99736350
+      KillerWalk1: -1468010201
+      KillerdeatStay2: 901671320
+      Killerdeat1: -315609681
+      KillerWalk2: 1441611067
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

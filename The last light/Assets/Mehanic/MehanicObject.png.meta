@@ -1,0 +1,951 @@
+fileFormatVersion: 2
+guid: e5bc10db8163b074084db91214cd0152
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MehanicObject_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 265
+        width: 15
+        height: 430
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985dfa81e527cfc4a85dc9fa0240af5e
+      internalID: 1454626113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_4
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 335
+        width: 155
+        height: 280
+      alignment: 9
+      pivot: {x: 0.38718635, y: 0.49993232}
+      border: {x: 0, y: 0, z: 95, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d604030962412047b8b2f0f13a86314
+      internalID: -2040992677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_5
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 335
+        width: 137
+        height: 280
+      alignment: 9
+      pivot: {x: 0.22624575, y: 0.5}
+      border: {x: 31, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f072c123b9ad5a41831742108b3789d
+      internalID: -2071257502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_6
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 335
+        width: 185
+        height: 280
+      alignment: 9
+      pivot: {x: 0.16223705, y: 0.4999877}
+      border: {x: 30, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9bd95fce8dcad4194c0ab97fa89ed0
+      internalID: 1323927171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_7
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 335
+        width: 185
+        height: 280
+      alignment: 9
+      pivot: {x: 0.16210872, y: 0.4998676}
+      border: {x: 30, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef0fc6ae5c6cbd4da2797fff6ab991a
+      internalID: 1068464213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_12
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 680
+        width: 380
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30392dae878c4294180f150d8e922080
+      internalID: 275306178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_14
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 725
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2112bad28cbf9d045bfcb7bd0152ee92
+      internalID: 600272467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1455
+        width: 235
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4628130f896138b4f976cb528a5c3429
+      internalID: -1822809201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_18
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1455
+        width: 235
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b822c78b5d377b142b3180e7e6fef368
+      internalID: 1921818830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_19
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 1360
+        width: 171
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40a42986d70609479e09021e5f23cf9
+      internalID: -1044240727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_20
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 1360
+        width: 160
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246ec71846e81aa4c9e9b2cea34ca8ac
+      internalID: -653977528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_25
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1460
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16768889f3198194faf45f0aae150d13
+      internalID: 27340715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_26
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 800
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441c60c21066aee498cf5ab9444a8618
+      internalID: 1423688156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1215
+        width: 140
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33acf082efa8d241bd60616978a5c34
+      internalID: 419886799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_28
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1215
+        width: 140
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84e5e8b721a6b34283c3dc60b8067ec
+      internalID: 240146482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_29
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1215
+        width: 140
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e101a92fe592f4195519a92d5ecd2c
+      internalID: 573632936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_30
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 1215
+        width: 140
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83459d5276865747b46a78333bab7d5
+      internalID: 392981307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_31
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 15
+        width: 80
+        height: 490
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a670ad479c5044083450e28600ec58
+      internalID: 1134244622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_32
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 1360
+        width: 160
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da1bec9ae7acef4d9fd0a302894319c
+      internalID: -1009802163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_33
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 1185
+        width: 160
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11dbe685b6b08264a977fc96873dbd1a
+      internalID: 1698705580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_34
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 1185
+        width: 160
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f823cb7fd2c677345886c843386a4bd4
+      internalID: 912723316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_35
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 1185
+        width: 160
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d0e28d1365cb044a74254d018a71fc
+      internalID: 1788397688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_36
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 1361
+        width: 160
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc3a3bdaf3937848942797bfe79f4f8
+      internalID: 1577340005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_37
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1300
+        width: 315
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ed59893e9e94541a3c45eb781f5020
+      internalID: 707340986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_38
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1180
+        width: 315
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960c053656459d04bb7492860b133d94
+      internalID: 1951258879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_39
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 1295
+        width: 315
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c7e96bedd5984479f7536252fd06d4
+      internalID: -555499688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_40
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 1180
+        width: 315
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3def7a54d2282c41a6b92ea0dc09163
+      internalID: -371948058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_41
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 895
+        width: 300
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d5b9a8d84ddb24bbab127cd9178d5c
+      internalID: -2116957191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_42
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 895
+        width: 300
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a20a034253ca374aa7b00bc6713e755
+      internalID: -414075124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_43
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 895
+        width: 300
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c314f5c2a71d584b889bdefe0e516eb
+      internalID: 726220595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_44
+      rect:
+        serializedVersion: 2
+        x: 2960
+        y: 895
+        width: 300
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e420e1634ce9b64bbe0ebf74ba389e2
+      internalID: 922129138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_45
+      rect:
+        serializedVersion: 2
+        x: 3280
+        y: 895
+        width: 300
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4dc0a35a8b88848bd51817c9a9fb85
+      internalID: 911590451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: block
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 15
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0177eaa61feca074fa7289b013bcbab5
+      internalID: -218078293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_46
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 95
+        width: 485
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc53564c8d7d7146b20e6dcba0edd5c
+      internalID: 689353448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_1
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 70
+        width: 365
+        height: 365
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283f10d4e4e6f0046b9dd94840aa2173
+      internalID: 1899330373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MehanicObject_2
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 650
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c49acde118fad419eabd23bc404017
+      internalID: 373654712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MehanicObject_21: 200690892
+      MehanicObject_18: 1921818830
+      MehanicObject_13: 717015526
+      MehanicObject_9: 2085983366
+      MehanicObject_15: -1469738141
+      MehanicObject_12: 275306178
+      MehanicObject_26: 1423688156
+      MehanicObject_36: 1577340005
+      MehanicObject_20: -653977528
+      MehanicObject_38: 1951258879
+      MehanicObject_3: -2086829343
+      MehanicObject_16: -1822809201
+      MehanicObject_24: 1404551858
+      MehanicObject_33: 1698705580
+      MehanicObject_23: 1750219945
+      MehanicObject_32: -1009802163
+      MehanicObject_46: 689353448
+      MehanicObject_14: 600272467
+      MehanicObject_1: 1899330373
+      MehanicObject_43: 726220595
+      MehanicObject_30: 392981307
+      MehanicObject_25: 27340715
+      MehanicObject_27: 419886799
+      MehanicObject_39: -555499688
+      MehanicObject_31: 1134244622
+      MehanicObject_5: -2071257502
+      MehanicObject_6: 1323927171
+      MehanicObject_17: 2127948415
+      MehanicObject_37: 707340986
+      MehanicObject_35: 1788397688
+      MehanicObject_45: 911590451
+      MehanicObject_2: 373654712
+      MehanicObject_22: 1295868031
+      MehanicObject_0: 1454626113
+      MehanicObject_11: 429389307
+      MehanicObject_41: -2116957191
+      MehanicObject_10: -1288792419
+      MehanicObject_7: 1068464213
+      MehanicObject_40: -371948058
+      MehanicObject_42: -414075124
+      MehanicObject_44: 922129138
+      MehanicObject_8: -1194626131
+      MehanicObject_34: 912723316
+      MehanicObject_19: -1044240727
+      MehanicObject_29: 573632936
+      MehanicObject_28: 240146482
+      MehanicObject_4: -2040992677
+      block: -218078293
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

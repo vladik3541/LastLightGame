@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 7b104d8140ee3a742a005a4118733620
+  - enabled: 1
+    path: Assets/Scenes/Round1.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Round2.unity
+    guid: 2944cb8d41f176f418f2cfbb177fbeee
+  - enabled: 1
+    path: Assets/Scenes/Round3.unity
+    guid: be511b76c5474ce4694996a7ae50c0fc
+  - enabled: 1
+    path: Assets/Scenes/Round4.unity
+    guid: 9816034b5c2bcc243a2984cc8dab88f2
+  - enabled: 1
+    path: Assets/Scenes/Round5.unity
+    guid: 2689a1c3b7ecd054aa07579f99ec13f2
+  - enabled: 1
+    path: Assets/Scenes/Round6.unity
+    guid: f502ccbb73a2f54439d8e0e5b2db43fb
+  - enabled: 1
+    path: Assets/Scenes/Round7.unity
+    guid: f4b092e14c3dd6346bfb1c05d945c937
+  - enabled: 1
+    path: Assets/Scenes/Round8.unity
+    guid: 6ddd4d650e683ae449bf4273731423ca
+  - enabled: 1
+    path: Assets/Scenes/Round9.unity
+    guid: 55b3e235f04c62a4cadc01025c51631e
+  - enabled: 1
+    path: Assets/Scenes/Round10.unity
+    guid: a53f9907f401d8e49a655f16d225bb14
+  - enabled: 1
+    path: Assets/Scenes/Round11.unity
+    guid: 240b0f972db9c5047ac543be6e12a77f
+  - enabled: 1
+    path: Assets/Scenes/Round12.unity
+    guid: 351de073dd7366249bf535a1ff256880
+  - enabled: 1
+    path: Assets/Scenes/Round13.unity
+    guid: 625adb48c09ddf9408240fe9aa28b660
+  - enabled: 1
+    path: Assets/Scenes/Round14.unity
+    guid: d2f8e5230215a4a419049cf508ff99cd
+  - enabled: 1
+    path: Assets/Scenes/Round15.unity
+    guid: f887f988279aee247bdf1a7f68fdac93
+  - enabled: 1
+    path: Assets/Scenes/Round16.unity
+    guid: be5f47d84203cb14f912a0c80cb8104c
+  - enabled: 1
+    path: Assets/Scenes/Round17.unity
+    guid: 5ec16b4af802b244ea34575a86f82dbc
+  - enabled: 1
+    path: Assets/Scenes/Round18.unity
+    guid: cc074fc5c6d2b6f44b17a4fc5e572043
+  - enabled: 1
+    path: Assets/Scenes/Round19.unity
+    guid: 52681e3901707c841a3e899f90f7fc57
+  m_configObjects: {}
