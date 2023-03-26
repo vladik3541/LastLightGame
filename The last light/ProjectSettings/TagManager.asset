@@ -9,6 +9,7 @@ TagManager:
   - Lampa
   - Trap
   - Spikes
+  - Lever
   layers:
   - Default
   - TransparentFX

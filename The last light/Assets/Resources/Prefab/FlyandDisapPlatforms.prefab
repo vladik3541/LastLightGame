@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2849941376347954269}
   - component: {fileID: 5277260374725301830}
   - component: {fileID: 5277260374725301831}
-  m_Layer: 12
+  m_Layer: 9
   m_Name: FlyPlatforms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144,7 +144,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _vertical: 1
   _disappear: 0
-  _speed: 4
   point:
   - {fileID: 5277260375555552118}
   - {fileID: 5277260375087798617}

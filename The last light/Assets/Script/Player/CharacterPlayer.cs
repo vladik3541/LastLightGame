@@ -14,7 +14,7 @@ public class CharacterPlayer : MonoBehaviour
     [SerializeField] private Vector3 beginHit;
 
     [SerializeField] private bool getsUp;
-    [SerializeField]private bool _dontEnter = true;
+    [SerializeField]private bool _dontEnter = false;
     public bool DontEnter { get => _dontEnter; set => _dontEnter = value; }
     private Rigidbody2D rb;
     public bool Death { get => death; set => death = value; }
@@ -24,6 +24,7 @@ public class CharacterPlayer : MonoBehaviour
         moving = GetComponent<Moving>();
         animplayer = GetComponent<AnimationPlayer>();
         rb = GetComponent<Rigidbody2D>();
+        if(getsUp){_dontEnter = true;}
     }
 
     private void FixedUpdate() {

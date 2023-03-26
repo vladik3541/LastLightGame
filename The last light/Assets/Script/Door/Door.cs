@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
+    [Header("Solar Lamp")]
     [SerializeField] private bool solar;
-    [SerializeField] private bool leverOn;
-
     [SerializeField] private SolarL sl;
-    [SerializeField] private bool destroySL;
+    [Header("Lever")]
+    [SerializeField] private bool leverOnOrOff;
     [SerializeField] private Lever lever;
+    [SerializeField] private bool destroyDoor;
     Rigidbody2D rb;
  
     void Start()
@@ -23,7 +24,7 @@ public class Door : MonoBehaviour
             if (sl.openDoor == true)
             {
                 rb.gravityScale = -1f;
-                if(destroySL)
+                if(destroyDoor)
                     Destroy(gameObject, 4f);
             }
             else
@@ -31,9 +32,9 @@ public class Door : MonoBehaviour
                 rb.gravityScale = 1f;
             }
         }
-        if(leverOn == true)
+        if(leverOnOrOff == true)
         {
-            if (lever.status == true)
+            if (lever.Status == true)
             {
                 rb.gravityScale = -1f;
                 Destroy(gameObject, 4f);

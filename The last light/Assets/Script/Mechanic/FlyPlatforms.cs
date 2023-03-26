@@ -6,17 +6,11 @@ public class FlyPlatforms : MonoBehaviour
 {
     [SerializeField] private bool _vertical;
     [SerializeField] private bool _disappear;
-    [SerializeField] private float _speed;
+    private float _speed = 4;
 
     [SerializeField] private Transform[] point;
 
     int i;
-
-    Rigidbody2D rb;
-    void Start()
-    {
-        rb = GetComponent<Rigidbody2D>();
-    }
     void Update()
     {   
         if(_vertical == true)

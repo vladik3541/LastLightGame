@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class Platform : MonoBehaviour
 {
-    [SerializeField] private float closedsec;
-    [SerializeField] private float loadsec;
-    [SerializeField] private float opensec;
+    [SerializeField] private float closedSec;
+    [SerializeField] private float loadSec;
+    [SerializeField] private float openSec;
 
     private float timeOpenPlatform;
     private float timeClosedPlatform;
     private float timeLoadPlatform;
 
-    [SerializeField] private bool load = false;
-    [SerializeField] private bool open = false;
-    [SerializeField] private bool closed = true;
+    private bool load = false;
+    private bool open = false;
+    private bool closed = true;
 
     [SerializeField] private AudioClip pressedSound;
     private AudioSource audioSource;
@@ -34,7 +34,7 @@ public class Platform : MonoBehaviour
             GetComponent<BoxCollider2D>().enabled = false;
             animator.SetBool("Closed", true);
             timeClosedPlatform += Time.deltaTime;
-            if(timeClosedPlatform > closedsec)
+            if(timeClosedPlatform > closedSec)
             {
                 animator.SetBool("Closed", false);
                 open = true;
@@ -50,7 +50,7 @@ public class Platform : MonoBehaviour
             GetComponent<BoxCollider2D>().enabled = true;
             animator.SetBool("Open", true);
             timeOpenPlatform += Time.deltaTime;
-            if(timeOpenPlatform > opensec)
+            if(timeOpenPlatform > openSec)
             {
                 animator.SetBool("Open", false);
                 open = false;
@@ -65,7 +65,7 @@ public class Platform : MonoBehaviour
             
             animator.SetBool("Load", true);
             timeLoadPlatform += Time.deltaTime;
-            if(timeLoadPlatform > loadsec)
+            if(timeLoadPlatform > loadSec)
             {
                 animator.SetBool("Load", false);
                 closed = true;

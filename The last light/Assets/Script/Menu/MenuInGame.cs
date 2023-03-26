@@ -20,21 +20,17 @@ public class MenuInGame : MonoBehaviour
     [SerializeField]private string number;
 
     [SerializeField] private bool _mobileImport;
-
-    /// <summary>
-    /// Update is called every frame, if the MonoBehaviour is enabled.
-    /// </summary>
     private void Update()
     {
         Esc();
     }
     public void Esc()
     {
+       
         if(Input.GetKeyDown(KeyCode.Escape))
         {
             Time.timeScale = 0;
             buttonMenu.SetActive(true);
-
         }
         if(_mobileImport)
         {

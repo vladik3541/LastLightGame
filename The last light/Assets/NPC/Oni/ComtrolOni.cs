@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class ComtrolOni : MonoBehaviour
 {
-    public float speed;
+    [SerializeField]float speed;
     [SerializeField]private float scared;
 
-    public float rayDistans;
+    [SerializeField] float rayDistans;
 
-    public bool ligthdamage = false;
-    Animator animator;
+    private bool ligthdamage = false;
+    private Animator animator;
     
-    [SerializeField]private bool moveRigth = true;
+    private bool moveRigth = true;
 
-    public GameObject player;
+    [SerializeField] private GameObject player;
 
     private bool isGrounded = false;
     [SerializeField]private Transform groundCheck;

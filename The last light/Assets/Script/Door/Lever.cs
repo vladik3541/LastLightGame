@@ -5,12 +5,13 @@ using UnityEngine;
 public class Lever : MonoBehaviour
 {
     Animator animator;
-    [SerializeField] private Move playerEnter;
-    public bool status = false;
+    [Header("OnjectActive")]
     [SerializeField] private bool objectActive;
     [SerializeField] private GameObject platforms;
 
     [SerializeField] private AudioClip pressedSound;
+    private bool status;
+    public bool Status{ get => status; set => status = value; }
     private AudioSource audioSource;
     private int i = 0;
 
@@ -22,10 +23,10 @@ public class Lever : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D col)
     {
-        if(col.name == "Player" && playerEnter.enter == true)
+        if(col.name == "Player" && Input.GetButton("E"))
         {
             animator.SetBool("On", true);
-            status = true;
+            Status = true;
             if(i == 0)
             {
                 audioSource.pitch = Random.Range(0.78f, 0.9f);
