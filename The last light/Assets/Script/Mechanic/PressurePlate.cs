@@ -28,7 +28,7 @@ public class PressurePlate : MonoBehaviour
     }
     void OnTriggerStay2D(Collider2D col)
     {
-        if(col.gameObject.tag == "Player" || col.gameObject.tag == "Enemy")
+        if(col.gameObject.tag == "Player" || col.gameObject.tag == "Enemy" || col.gameObject.tag == "Box")
         {
             anim.SetBool("Buttom", true);
             if(i == 0)
@@ -42,27 +42,25 @@ public class PressurePlate : MonoBehaviour
                 anyObjectForSimulated.GetComponent<Rigidbody2D>().simulated = true;
                 simulatedObject = false;
             if(doorUp)
-                StartCoroutine("time", 4.0f);
+                rbDoor.gravityScale = -1;
             if(activeObject)
                 setObject.SetActive(true);
         }
     }
     void OnTriggerExit2D(Collider2D col)
     {
-        if(col.gameObject.tag == "Player" || col.gameObject.tag == "Enemy")
+        if(col.gameObject.tag == "Player" || col.gameObject.tag == "Enemy" || col.gameObject.tag == "Box")
         {
             audioSource.pitch = Random.Range(0.78f, 0.9f);
             audioSource.volume = Random.Range(0.3f, 0.4f);
             audioSource.PlayOneShot(pressedSound);
             anim.SetBool("Buttom", false);
             i = 0;
-            
         }
-    }
-    IEnumerator time(float t)
-    {
-        rbDoor.gravityScale = -1;
-        yield return new WaitForSeconds(t);
-        rbDoor.gravityScale = 1;
+        if(doorUp)
+        {
+            rbDoor.gravityScale = 1;
+        }
+
     }
 }

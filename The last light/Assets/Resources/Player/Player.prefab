@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4139027410476751159
 Transform:
   m_ObjectHideFlags: 0
@@ -347,10 +347,10 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 135
   DopplerLevel: 1
-  MinDistance: 1.7102718
-  MaxDistance: 4.1636868
+  MinDistance: 1
+  MaxDistance: 5
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -460,9 +460,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalMove: 1
-  rayDistans: 0.25
-  beginHit: {x: 0, y: -0.7, z: 0}
-  getsUp: 1
+  rayDistans: 0.4
+  beginHit: {x: 0, y: 0, z: 0}
+  getsUp: 0
+  _dontEnter: 0
 --- !u!114 &5891989639467454169
 MonoBehaviour:
   m_ObjectHideFlags: 0

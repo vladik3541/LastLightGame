@@ -22,6 +22,10 @@ public class TriggerDeath : MonoBehaviour
             _animPlayer.Spikes();
             _characterPlayer.Death = true;
         }
+        if(coll.tag == "Ground")
+        {
+            
+        }
         
     }
     private void OnCollisionEnter2D(Collision2D other) {

@@ -85,7 +85,6 @@ public class CharacterPlayer : MonoBehaviour
     {
         int layerMask = LayerMask.GetMask("Ground");
         RaycastHit2D hitright = Physics2D.Raycast(transform.position + beginHit, transform.localScale.x * Vector3.right, rayDistans, layerMask, 0);
-        RaycastHit2D hitleft = Physics2D.Raycast(transform.position + beginHit, transform.localScale.x * -Vector3.right, rayDistans, layerMask, 0);
         if (hitright.collider != null)
         {
             move = false;
@@ -96,6 +95,7 @@ public class CharacterPlayer : MonoBehaviour
         {
             move = true;
         }
+        RaycastHit2D hitleft = Physics2D.Raycast(transform.position + beginHit, transform.localScale.x * -Vector3.right, rayDistans, layerMask, 0);
         if (hitleft.collider != null)
         {
             move = false;
@@ -129,5 +129,11 @@ public class CharacterPlayer : MonoBehaviour
         animplayer.EnterAnim();
         yield return new WaitForSeconds(t);
         move = true;
+    }
+    void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawLine(transform.position, transform.position + transform.localScale.x * Vector3.right * rayDistans);
+        Gizmos.DrawLine(transform.position, transform.position + transform.localScale.x * -Vector3.right * rayDistans);
     }
 }

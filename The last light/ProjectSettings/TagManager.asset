@@ -10,6 +10,7 @@ TagManager:
   - Trap
   - Spikes
   - Lever
+  - Box
   layers:
   - Default
   - TransparentFX

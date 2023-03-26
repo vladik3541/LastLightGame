@@ -164,8 +164,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 248e9ddda5fb8b74f9ce3ca659fe9668, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  animPlayer: {fileID: 0}
   wait: 2
   flyUp: 1
   pressedSound: {fileID: 8300000, guid: ccdcb41960fd2b24e89a792327ecd9cf, type: 3}

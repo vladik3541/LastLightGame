@@ -4,9 +4,6 @@ using UnityEngine;
 
 public class Stem : MonoBehaviour
 {
-    [SerializeField]private Move player;
-    [SerializeField]private Animator animPlayer;
-
     [SerializeField]private float wait;
     [SerializeField]private float flyUp;
 
@@ -32,14 +29,6 @@ public class Stem : MonoBehaviour
             StartCoroutine("timeUp", flyUp);
         }
        
-    }
-    private void OnTriggerEnter2D(Collider2D col)
-    {
-        if (col.name == "Player")
-        {
-            player.death = true;
-            animPlayer.SetTrigger("DeathSpikes");
-        }
     }
     IEnumerator timeUp(float t)
     {
